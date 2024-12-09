@@ -1,0 +1,25 @@
+ff_mod to_do:
+-add flavor text for teen pregnancies
+-add creep/groomer/incestuous personalities/traits so normal cats arent doing insane things
+-add compatibility between groomer personality and kits/apps, and incestuous personality & their family etc
+ 	-add option to toggle normalized incest/grooming?
+-add custom romance events specific to these personalities & their targets (add grooming flavor text yay!)
+-add noncon events and noncon pregnancies
+	-ceep personalities will noncon cats
+-obsessive personality that targets one cat and progressively gets weirder towards them? repeated noncon & culminates in kidnapping? maybe?
+-SEX !!! (custom patrol option! maybe lifegen specific? additional option to choose consensual vs noncon, or variable flavor text depending on age/romance?)
+-optimize
+
+teen preg events:
+
+announcement: for kits, something offputting? they dont understand whats happening.. maybe an older cat notices. for apprentices, can be more normal. i can add an extra check for young apprentices vs more mature apprentices if needed. still should indicate that this is kind of wrong.
+(default: "cat announced that cat is expecting kits.")
+
+severity: locked at major severity, the cat abandons their usual duties and moves into the nursery. apprentices can reuse defaults but kits are a special case & should be offputting. jseverity string directly follows the announcement string.
+(default: "they decide to move into the nursery in preparation for their soon-to-come kits."
+or "they don't believe they can efficiently perform their duties while expecting kits")
+
+birth:
+by default there are options for mated/unmated/affairs/dead mate/whatever, but announcing the father of an apprentices litter feels a little odd. instead i'll have these check whether or not the normalized grooming toggle is true or not.
+
+for a sneaky vibe that doesnt reveal the father, apprentices and kits can reuse or modify the unmated defaults. modified/reused affair defaults may also be appropriate for a predatory vibe that reveals the father. some custom fluffy flavor text can be fun but overall it should be unsettling and have bad implications? not exactly sure what to do about the dead mate & both unmated defaults. ignoring them for now. some death & difficult brith defaults are already appropriate, but maybe modify or add custom ones that specify the age/small body as a complication.
